@@ -1,0 +1,12 @@
+{
+  "name": "ern-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server",
+    "build": "cd client && npm run build && cd .. && node server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+  }
+}
