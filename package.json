@@ -7,6 +7,6 @@
     "build": "cd client && npm run build && cd .. && node server"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.1"
   }
 }
